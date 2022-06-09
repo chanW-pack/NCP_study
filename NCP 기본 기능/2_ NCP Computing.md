@@ -176,7 +176,7 @@ Packer를 활용하여 내 서버 이미지를 생성하는 서비스를 말한�
 
 서버 이미지 생성 시, Linux, Windows 모두 패스워드 초기화가 필요하며, Windows의 경우 SID 변경이 필요하다.
 
-![Untitled](NCP%20Computing%200c8135ca441b4c2592ffe2c0e082c37c/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/172820690-d483c858-ceb0-4697-9795-ef6a2b4b92bd.png)
 
 ### Init Script
 
@@ -226,6 +226,6 @@ OS영역인 50GB에 추가로 더 큰 로컬 스토리지 용량이 필요한 �
 
 단일서버에 최대 15개의 추가 스토리지가 가능하고 기존 OS까지 포함하면 총 16개가 된다.
 
-![Untitled](NCP%20Computing%200c8135ca441b4c2592ffe2c0e082c37c/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/172820699-7f851e89-d860-4f24-bed4-e4317929897e.png)
 
 ---
