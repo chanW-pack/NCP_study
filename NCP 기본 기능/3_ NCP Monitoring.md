@@ -53,7 +53,7 @@ NCP Server의 CPU 사용률을 모니터링하여, 일정 수치가 넘게되면
 : 몇 번의 클릭만으로 간편하게 이벤트와 관련된 다양한 설정을 할 수 있는
 플랫폼을 제공한다.
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/176134364-e77600e0-c428-404e-b500-a793bf0757bd.png)
 
 > 상세기능 | 모니터링 항목 및 주기 설정이다.
 > 
@@ -62,17 +62,17 @@ NCP Server의 CPU 사용률을 모니터링하여, 일정 수치가 넘게되면
 
 ---
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/176134324-bbdd96e4-56f1-4ff6-ae52-a760cfd10ce2.png)
 
 > Monitoring 실습 전용 서버를 하나 생성하였다. (Ubuntu Linux)
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/176134332-27973c47-9b04-4c71-950d-78e490cd8851.png)
 
 > 상태가 운영중인 서버 상단에 모니터링을 선택한다.
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/176134337-c22ff1b8-23a1-4bab-be50-e2c3982a36c6.png)
 
 > 서버 기본 모니터링 화면이 출력된다.
 기본적으로 CPU 사용률, 네트워크 트래픽, 메모리 사용률, 스왑메모리 사용률, 디스크 사용률,
@@ -85,7 +85,7 @@ NCP Server의 CPU 사용률을 모니터링하여, 일정 수치가 넘게되면
 
 </aside>
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/176134338-b8f22a5e-f390-4f92-ba8f-eab804e04654.png)
 
 > 로드밸런서 기본 모니터링 화면
 > 
@@ -94,33 +94,33 @@ NCP Server의 CPU 사용률을 모니터링하여, 일정 수치가 넘게되면
 
 이벤트 발생 시 통보를 받기 위한 사용자 정보를 설정한다.
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/176134340-8f6a16c5-6d75-4bc1-bbbe-24ceb9c89df8.png)
 
 > 기본적으로 계정의 본인 확인된 이메일이 생성되어 있다.
 NCP 콘솔에서 Mangement → Monitoring → Notification Recipient 항목으로 이동한다.
 대상자 추가 버튼을 선택한다.
 > 
-
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%206.png)
+> 
+![Untitled 6](https://user-images.githubusercontent.com/84123877/176134342-6cd3639d-4f18-436f-b36a-0b85660ebd2c.png)
 
 > 대상자 이름, 연락받을 이메일, 휴대폰 번호를 입력한 후 “등록”을 선택한다.
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/176134345-4598f689-9516-4623-9c78-a3a3eb5343e4.png)
 
 > 대상자가 추가된 것을 확인할 수 있다.
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/176134347-8a29bf19-255f-42a8-9db6-9aedb29b9080.png)
 
 > 서버 상세 모니터링을 사용하기 위해 콘솔의 Server 항목에서
 대상 서버를 선택하고 마우스 오른쪽 버튼을 클릭한다.
 ”상세 모니터링 설정 변경” 을 선택한다.
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/176134350-81300fa0-74a2-4543-a43c-18c6fe64ea95.png)
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/176134353-007ba705-fd22-46dc-a6b4-22a5a9d037bf.png)
 
 > 상세 모니터링 신청 후 이벤트 알람을 설정하겠다.
 콘솔화면에서 Monitoring → Configureation → New Observation 을 선택한다.
@@ -128,19 +128,19 @@ NCP 콘솔에서 Mangement → Monitoring → Notification Recipient 항목으�
 (사진에서는 서버 이미지가 안보인다. 서버 이미지를 생성하고 진행하여야 한다. )
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/176134355-5d88dafb-0088-4f75-aab1-8af1175fcfdc.png)
 
 > 서버의 CPU 사용률 임계치를 30%로 설정하였다.
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/176134358-038f3594-87a5-4945-866c-76d5eecebe09.png)
 
 > 알람을 보내는 목적지이다. AWS랑 다르게 SMS도 추가할 수 있다.
 > 
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/176134360-68b20b3d-64d2-42b0-85a2-46f1ada58831.png)
 
-![Untitled](Monitoring%208922a18b282146679e9983eafe2ba802/Untitled%2014.png)
+![Untitled 14](https://user-images.githubusercontent.com/84123877/176134361-62ae048a-408a-4758-9599-dfe63eabf1a2.png)
 
 > CPU 사용률이 임계치를 넘어서니 알람 메일이 전송되었다.
 > 
