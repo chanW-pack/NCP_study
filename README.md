@@ -1,6 +1,9 @@
-# NCP_study
+# NAVER CLOUD PLATFORM -study
+<aside>
+😁 [당신이 지금 알아야할 AWS] 도서를 참조해 공부한 내용입니다. 감사합니다.
+</aside>
 
-# ★ NAVER CLOUD PLATFORM -study ★
+<chanwoo pack .2022>
 
 ## Week 1
 
