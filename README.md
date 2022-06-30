@@ -1,4 +1,4 @@
-# NAVER CLOUD PLATFORM -study
+# NAVER CLOUD PLATFORM 
 <chanwoo pack .2022>
 
 ## Week 1 
