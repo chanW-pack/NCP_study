@@ -11,3 +11,4 @@
 ## Week 2 
 - [NCP. Monitoring](https://github.com/chanwoo9730/NCP_study/blob/main/NCP%20Monitoring.md)
   - Monitoring 특징, Monitoring 설정 및 알람 전송 실습, 통보대상 설정
+  
