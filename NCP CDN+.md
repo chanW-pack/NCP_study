@@ -77,13 +77,14 @@ HTTP, HTTPS, HTTP2 프로토콜을 통해 다양한 원본 서버와의 콘텐�
 
 ---
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/178859677-f5f3e19c-3230-465a-b56d-71f0f550645b.png)
 
 ## CDN+ 요금 안내
 
 ---
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/178859679-827eb7fc-46d9-473b-870d-d178e8599083.png)
+
 
 ## CDN+ 배포 실습
 
@@ -92,30 +93,30 @@ HTTP, HTTPS, HTTP2 프로토콜을 통해 다양한 원본 서버와의 콘텐�
 AWS에서 S3를 생성하여 CloudFront로 배포하듯,
 NCP에서도 Object Storage를 생성하여 CDN+로 배포 실습을 진행해보겠다.
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/178859681-159627a3-d1d8-484f-84b3-6f766ba891d7.png)
 
 > Object Storage를 생성하였다. CDN+ 사용을 위해 버킷과 모든 파일 권한을 열어주었다.
 > 
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/178859685-5297f30d-86e2-4594-9a2c-8e183d03916f.png)
 
 > NCP VPC탭에서 CDN+ 서비스를 선택하고 신청을 진행한다.
 > 
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/178859688-a561e281-8303-4ea0-b37f-64da2197b9cf.png)
 
 > 서비스 이름을 입력하고, Object Storage와 연동하기 위해 서비스 프로토콜을 
 “HTTPS”로 설정합니다.
 > 
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/178859690-4f1b916d-ff3c-42c5-93df-df99c3594d07.png)
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/178859691-a54c8700-75ad-4ca7-b67d-135a44364ce8.png)
 
 > 원본 서버를 선택한다. 생성했던 Object Storage를 선택했다.
 > 
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/178859693-a52a0fc1-afa5-42f5-845d-fd211e3ccc7e.png)
 
 > CDN 서비스 캐싱을 설정한다.
 > 
@@ -124,12 +125,12 @@ Cache Hit률을 높이기 위해 캐싱 설정에서
 'Ignore Query String(쿼리스트링 무시)', 'Remove Vary Header' 설정을 적용하는 것이 좋습니다. 
 (자세한 옵션 설명은  [?] 버튼을 클릭하면 자세히 나오므로 도움말을 참고하면 좋다.)
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/178859695-76c1b080-1827-49c0-9056-69aed8b293f7.png)
 
 > CDN+ 생성이 완료되었다. 상태가 운영중으로 변경될때까지 기다린다.
 > 
 
-![Untitled](NCP%20CDN+%209bd2da96be534833a81ae295ea6008ad/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/178859696-6243685a-e01d-42d8-a8c5-cb578f46407f.png)
 
 > CDN URL을 통하여 페이지 호출 완료
 > 
