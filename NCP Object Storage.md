@@ -39,12 +39,12 @@ Object Storate는 인터넷상에서 여러 사용자가 원하는 데이터를 
 
 Object Storage는 이용신청이 필요하므로 NCP 콘솔 창에서 이용 신청을 진행한다.
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/178858730-e4bfb222-f2de-462c-89c9-241870fb09e7.png)
 
 > 콘솔창에서 Object Storage를 선택한다.
 > 
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/178858711-cc854aeb-182d-457a-ab80-d9c3532f6c2d.png)
 
 > 안내사항 확인 후 이용을 신청한다.
 > 
@@ -55,12 +55,12 @@ Objcet Storage를 실제 사용하기 위해서는 기본적으로 스토리지�
 
 등의 설정을 담고 있는 단위인 “버킷”을 먼저 생성해야 한다.
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/178858716-3c1f3172-6631-4283-aa3f-02ec4e91e4e7.png)
 
 > 버킷 생성을 선택한다.
 > 
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/178858717-be5907e1-aecf-448d-9a5c-b808666ffd79.png)
 
 > 버킷의 이름을 설정한다. (본인은 ’cwncpcool’ 로 생성하였다.)
 * 생성된 버킷의 이름은 변경 불가, 버킷 이름은 객체에 대한 도메인에 
@@ -73,7 +73,7 @@ Objcet Storage를 실제 사용하기 위해서는 기본적으로 스토리지�
 
 버킷 내 파일/폴더 리스트만 공개, 파일에 대한 공개 여부는 개별 파일에서 설정한다.
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/178858718-14fa2c8e-0456-468c-99ec-ef7473b3f324.png)
 
 > 버킷을 NCP의 다른 계정에 공유할 수 있다.
 버킷에 대한 목록 조회, 업로드, ACL 조회, ACL 수정 권환 중 일부/전부 를 선택하여 부여 가능
@@ -83,7 +83,7 @@ Objcet Storage를 실제 사용하기 위해서는 기본적으로 스토리지�
 
 ### 파일 업로드/다운로드
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/178858720-22b824fe-f4c2-4b14-8333-b751e44ec127.png)
 
 > 파일 업로드할 버킷을 지정 후 해당 버킷에 파일을 업로드
 > 
@@ -92,7 +92,7 @@ Objcet Storage를 실제 사용하기 위해서는 기본적으로 스토리지�
 
 파일에 대한 권한을 부여할 경우, 파일 올리기 설정에서 설정하면 편리하게 동일한 권한을 부여 가능
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/178858721-ea3e57cd-2dfd-47c2-977f-a3555253818e.png)
 
 > 파일을 단독 선택하면 파일에 대한 상세 정보를 확인 가능
 > 
@@ -105,12 +105,12 @@ API를 통해 Object Storage를 이용할 경우 업로드 파일 용량을 5TB�
 
 API 인증 키는 마이페이지 > 계정관리 > 인증키 관리 메뉴에서 만들 수 있다.
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/178858722-5240a51f-87ac-4d7e-9599-b7d5853126a4.png)
 
 > 인증키 관리를 선택한다.
 > 
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/178858724-9657aa3e-bd95-4ae7-a3c1-89ba064250a0.png)
 
 > 신규 API 인증키 생성을 선택한다.
 > 
@@ -129,7 +129,7 @@ S3를 사용하는 프로그램을 Object Storage에서도 그대로 사용할 �
 
 1. S3 Browser를 실행하고 Menu → Account → Add New Account에서 다음과 깉이 설정한다.
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/178858726-a89d9d5f-f050-4d73-a7ac-40d98b9d8619.png)
 
 - Account Type: S3 Compatible Storage
 - REST Endpoint: kr.object.ncloudstorage.com
@@ -139,7 +139,7 @@ S3를 사용하는 프로그램을 Object Storage에서도 그대로 사용할 �
 
 1. Task 탭에서 정상적으로 연결이 되는지 확인한다.
 
-![Untitled](Object%20Storage%20611cffaf70a34fa5b49156ffd855d971/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/178858728-186e593b-3b08-4b81-b484-759a3ee6822d.png)
 
 > NCP 계정연동 완료
 > 
